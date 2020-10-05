@@ -30,7 +30,7 @@ steps:
     publishWebProjects: false
     projects: 'SimpleAPI/SimpleAPI/SimpleAPI.csproj'
     arguments: '--configuration $(configuration) --output $(Build.ArtifactStagingDirectory)'
-    zipAfterPublish:true
+    zipAfterPublish: true
 
 - task: PublishBuildArtifacts@1
   displayName: 'publish artifacts'
