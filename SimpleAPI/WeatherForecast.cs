@@ -4,6 +4,7 @@ namespace SimpleAPI
 {
     public class WeatherForecast
     {
+        //Adding comment
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
